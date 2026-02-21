@@ -497,6 +497,8 @@ SSIL applies these principles to irreversible boundary governance through:
 `R = {R0, E0, I1, I2, C}`  
 `phi((m,a,s,r)) = m`
 
+For the complete Shunyaya ecosystem index and execution-first standards map, see: [Shunyaya Symbolic Mathematics — Master Docs](https://github.com/OMPSHUNYAYA/Shunyaya-Symbolic-Mathematics-Master-Docs)
+
 ---
 
 # 🏷 Topics
