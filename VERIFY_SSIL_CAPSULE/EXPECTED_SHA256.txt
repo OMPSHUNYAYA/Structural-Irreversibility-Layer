@@ -1,0 +1,15 @@
+SSIL CORE CASESET REPLAY OUTPUT HASH
+Profile: public
+Caseset: recover
+
+Expected SHA256 (ssil_out.csv):
+a3e8bb1d07348736c28da10d12df66450aeb9519799265828c04de579df99f5f
+
+Verification Rule:
+B_A = B_B
+and
+SHA256(ssil_out.csv) must match the expected hash above.
+
+No tolerance.
+No partial acceptance.
+Byte identity required.
