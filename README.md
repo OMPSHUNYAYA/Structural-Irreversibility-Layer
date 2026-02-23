@@ -69,7 +69,7 @@ There is no partial success.
 
 From project root:
 
-`python scripts/ssil_engine_v1_2.py --in traces/trace_recover.csv --out run1.csv --H 8 --delta-max 0.15 --s-max 10.0 --rho 2.0`
+`python scripts/ssil_engine_v1_2.py --in traces/trace_recover.csv --out outputs/run1.csv --H 8 --delta-max 0.15 --s-max 10.0 --rho 2.0`
 
 Run twice and compare.
 
@@ -160,6 +160,38 @@ Capsule enforces:
 - Deterministic continuation mapping `IRR_ADM(t)`  
 - Canonical fingerprint verification  
 - Replay identity `B_A = B_B`  
+
+---
+
+### 🛰 SSIL Demo Harness (Replay-Verified Observatory Snapshot)
+
+For a minimal, self-contained deterministic demonstration harness, see:
+
+🔗 **SSIL Demo Repository (Frozen Audit Snapshot v1.0)**
+
+- [`ssil-demo`](https://github.com/OMPSHUNYAYA/ssil-demo)
+
+The demo repository provides:
+
+- Standalone deterministic execution surface  
+- Minimal trace set for replay demonstration  
+- Verification harness (`verify.py`)  
+- Frozen release checkpoint (`v1.0`)  
+- Replay-verifiable artifact discipline  
+
+Conformance principle remains identical:
+
+`B_A = B_B`
+
+The demo repository does not modify the SSIL specification.
+
+It serves as:
+
+- Executable conformance observatory  
+- Lightweight audit entry point  
+- Independent replay demonstration surface  
+
+Canonical specification authority remains in this primary SSIL repository.
 
 ---
 
