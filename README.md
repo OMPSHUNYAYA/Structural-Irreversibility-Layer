@@ -2,6 +2,8 @@
 
 **Deterministic Structural Irreversibility Governance — Without Modifying Classical Systems**
 
+[![SSIL Verify (Core Capsule)](https://github.com/OMPSHUNYAYA/Structural-Irreversibility-Layer/actions/workflows/verify.yml/badge.svg)](https://github.com/OMPSHUNYAYA/Structural-Irreversibility-Layer/actions/workflows/verify.yml)
+
 ![SSIL](https://img.shields.io/badge/SSIL-Structural%20Irreversibility%20Layer-blue)
 ![Civilization--Grade](https://img.shields.io/badge/Verification-Civilization--Grade-purple)
 ![Deterministic](https://img.shields.io/badge/Deterministic-Yes-green)
