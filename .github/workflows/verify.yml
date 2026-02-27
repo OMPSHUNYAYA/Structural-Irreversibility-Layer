@@ -1,0 +1,26 @@
+name: SSIL Verify (Core Capsule)
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Normalize line endings (Linux runner safety)
+        run: |
+          python -c "p='VERIFY_SSIL_CAPSULE/RUN_VERIFY.sh'; import pathlib; t=pathlib.Path(p).read_bytes().replace(b'\r\n', b'\n'); pathlib.Path(p).write_bytes(t)"
+
+      - name: Run SSIL capsule verification
+        run: bash VERIFY_SSIL_CAPSULE/RUN_VERIFY.sh
